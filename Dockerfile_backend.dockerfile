@@ -13,8 +13,8 @@ RUN npm install
 # Copy the rest of the backend application code into the container
 COPY quirknotes/backend ./
 
-# Expose port 3000 for the backend server
-EXPOSE 3000
+# Expose port 4000 for the backend server
+EXPOSE 4000
 
 # Command to run the backend server
 CMD ["npm", "start"]
